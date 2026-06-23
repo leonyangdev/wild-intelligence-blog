@@ -57,7 +57,7 @@ export async function POST(request: Request) {
 
     // Send welcome email to subscriber
     await getResend().emails.send({
-      from: "Wild Intelligence <noreply@hefeng6500.cn>",
+      from: "Wild Intelligence <noreply@leonyangdev.com>",
       to: email.trim(),
       subject: "欢迎订阅 Wild Intelligence！",
       html: `
@@ -82,7 +82,7 @@ export async function POST(request: Request) {
     // Notify owner about new subscriber
     const ownerEmail = process.env.CONTACT_EMAIL || fromEmail
     await getResend().emails.send({
-      from: "Wild Intelligence <noreply@hefeng6500.cn>",
+      from: "Wild Intelligence <noreply@leonyangdev.com>",
       to: ownerEmail,
       subject: "[Wild Intelligence 订阅] 新的邮件订阅者",
       html: `

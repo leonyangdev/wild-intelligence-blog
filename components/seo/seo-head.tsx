@@ -139,7 +139,7 @@ export function HomeSeo() {
       title="首页"
       description="一个优雅精致的技术博客，分享 Web 开发、前端工程化和用户体验设计的最新见解和实践经验。"
       keywords={["技术博客", "Web 开发", "前端开发", "Next.js", "React", "TypeScript"]}
-      url="https://your-domain.com"
+      url="https://www.leonyangdev.com"
     />
   )
 }
@@ -154,7 +154,7 @@ export function BlogListSeo() {
       title="博客文章"
       description="探索最新的技术见解、实战经验和学习心得"
       keywords={["技术文章", "编程教程", "Web 开发", "前端开发"]}
-      url="https://your-domain.com/blog"
+      url="https://www.leonyangdev.com/blog"
     />
   )
 }
@@ -169,7 +169,7 @@ export function AboutSeo() {
       title="关于我"
       description="了解我的技术背景、工作经历和兴趣爱好"
       keywords={["关于我", "技术背景", "工作经历", "前端工程师"]}
-      url="https://your-domain.com/about"
+      url="https://www.leonyangdev.com/about"
     />
   )
 }
@@ -184,7 +184,7 @@ export function ContactSeo() {
       title="联系我"
       description="如果你有任何问题或合作意向，欢迎随时联系我"
       keywords={["联系我", "合作", "咨询", "前端开发"]}
-      url="https://your-domain.com/contact"
+      url="https://www.leonyangdev.com/contact"
     />
   )
 }

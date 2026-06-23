@@ -130,7 +130,7 @@ export async function POST(request: Request) {
     }
 
     await getResend().emails.send({
-      from: "Wild Intelligence <noreply@hefeng6500.cn>",
+      from: "Wild Intelligence <noreply@leonyangdev.com>",
       to: ownerEmail,
       replyTo: email!.trim(),
       subject: `[Wild Intelligence 联系] ${subject!.trim()}`,

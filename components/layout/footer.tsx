@@ -44,7 +44,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-2">
             <Link href="/" className="inline-block mb-3">
               <span className="text-heading-16 text-foreground">
-                Wild Intelligence
+                TechPulse
               </span>
             </Link>
             <p className="text-copy-14 text-muted-foreground max-w-xs leading-relaxed mb-4">
