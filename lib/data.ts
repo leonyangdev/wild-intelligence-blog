@@ -19,7 +19,7 @@ export const githubProfile = {
   totalStars: 597,
   memberSince: "2017",
   education: {
-    school: "东华理工大学",
+    school: "XX理工大学",
     major: "计算机科学与技术",
     degree: "本科",
   },
